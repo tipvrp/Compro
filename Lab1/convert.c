@@ -9,7 +9,7 @@ int main(void)
     int a,b ;
     printf("Enter a lowercase letter:");
     scanf("%c", &a);
-    b=a+32;
+    b=a+32; // ตามรหัส ASCII ตัวพิมพ์เล็กกับตัวพิมพ์ใหญ่ต่างกัน 32
     printf("You entered a lowercase of %c",b);
     return 0;
 }
