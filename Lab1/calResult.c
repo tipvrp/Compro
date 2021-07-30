@@ -6,7 +6,7 @@
 #include <stdio.h>
 int main(void)
 {
-    float a , b , c , Result ;//��˹������
+    float a , b , c , Result ;//กำหนดตัวแปร
     printf("calResult \n" );
     printf("Please enter a :");
     scanf("%f", &a);
@@ -14,7 +14,8 @@ int main(void)
     scanf("%f", &b);
     printf("Please enter c :");
     scanf("%f", &c);
-    Result = ((4.2*a)+(2.8*b))/(((5*b)/a)-(7*c));
+    Result = ((4.2*a)+(2.8*b))/(((5*b)/a)-(7*c)); //คำนวณค่าตามสมการ
     printf("Result = %f",Result);
+    
     return 0;
 }
