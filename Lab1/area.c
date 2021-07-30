@@ -6,11 +6,11 @@
 #include <stdio.h>
 int main(void)
 {
-    float R , A ,PI=22/7.0; //°”Àπ¥µ—«·ª√ √— ¡’ æ◊Èπ∑’Ë ·≈–§Ë“æ“¬
+    float R , A ,PI=22/7.0; //‡∏Å‡∏≥‡∏´‡∏ô‡∏î‡∏ï‡∏±‡∏ß‡πÅ‡∏õ‡∏£ ‡∏£‡∏±‡∏™‡∏°‡∏µ ‡∏û‡∏∑‡πâ‡∏ô‡∏ó‡∏µ‡πà ‡πÅ‡∏•‡∏∞‡∏Ñ‡πà‡∏≤ PI
     printf("Circle Area Calculator  \n" );
     printf("Please enter radius :");
     scanf("%f", &R);
-    A =PI*R*R; // §”π«≥æ◊Èπ∑’Ë¢Õß«ß°≈¡
+    A =PI*R*R; // ‡∏Ñ‡∏≥‡∏ô‡∏ß‡∏ì‡∏û‡∏∑‡πâ‡∏ô‡∏ó‡∏µ‡πà‡∏ß‡∏á‡∏Å‡∏•‡∏°
     printf("Area = %f", A );
 
     return 0;
