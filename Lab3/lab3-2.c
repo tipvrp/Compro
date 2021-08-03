@@ -6,17 +6,19 @@
 #include<stdio.h>
 int main(void)
 {
-int i;
-int j;
-int num = 0;
-for(i=-5;i<=20;i+=2){ // ¡ÒÃÇ¹ÃÍº for ·Õè 1
-printf("%d\n", num);
-num = num + 1;
-}
-j=0;
-for(i=0;j+i<=100;i++){ // ¡ÒÃÇ¹ÃÍº for ·Õè 2
-printf("%d\n", j+i);
-j = j+1;
-}
-return 0;
+    int i;
+    int j;
+    int num = 0;
+    for(i=-5;i<=20;i+=2) // à¸§à¸™à¸£à¸­à¸š for à¸—à¸µà¹ˆ 1
+    { 
+        printf("%d\n", num);
+        num = num + 1;
+    }
+    j=0;
+    for(i=0;j+i<=100;i++) //à¸§à¸™à¸£à¸­à¸š for à¸—à¸µà¹ˆ 2
+    { 
+        printf("%d\n", j+i);
+        j = j+1;
+    }
+    return 0;
 }
