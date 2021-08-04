@@ -8,22 +8,22 @@ int main(void)
 {
     int dayLeft = 12; // จำนวนวันก่อนถึงวันสอบ
     int dayPrepare = 14; // จำนวนวันที่จะใช้เตรียมตัวสอบ
-    if (dayLeft < dayPrepare)
+    if (!(dayLeft < dayPrepare))
     {
-        printf("It is ok.");
-        printf(" (you still have some time.)\n");
-    }
-    else
-    {
-        if(dayLeft == dayPrepare)
+        if (dayLeft == dayPrepare)
         {
             printf("You have exactly what you need.\n");
         }
         else
         {
-            printf("It is good.");
-            printf(" (you should be well prepared.)\n");
+            printf("It is ok.");
+            printf(" (you still have some time.)\n");
         }
+    }
+    else
+    {
+        printf("It is good.");
+        printf(" (you should be well prepared.)\n");
     }
     printf("\n\nPlease plan your study carefully.\n\n");
     return 0;
