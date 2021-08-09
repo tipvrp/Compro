@@ -31,9 +31,7 @@ void main(void)
                 sum+=A[i][k]*B[k][j];
             }
             C[i][j]=sum;
-
         }
-
     }
     //////////////////////////////////////////////////show matrix B
     printf("\nResult B:\n");
