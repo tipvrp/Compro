@@ -1,5 +1,5 @@
 //เนื้อร้องเพลง Five Little Ducks
-
+//134 words
 #include <stdio.h>
 int main(void)
 {
