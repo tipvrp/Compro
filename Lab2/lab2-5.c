@@ -16,14 +16,15 @@ int main(void)
         }
         else
         {
-            printf("It is ok.");
-            printf(" (you still have some time.)\n");
+            printf("It is good.");
+            printf(" (you should be well prepared.)\n");
         }
     }
     else
     {
-        printf("It is good.");
-        printf(" (you should be well prepared.)\n");
+        printf("It is ok.");
+        printf(" (you still have some time.)\n");
+        
     }
     printf("\n\nPlease plan your study carefully.\n\n");
     return 0;
