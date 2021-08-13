@@ -1,5 +1,5 @@
 //เนื้อร้องเพลง Five Little Ducks
-//134 words
+//138 words
 #include <stdio.h>
 int main(void)
 {
@@ -16,7 +16,11 @@ int main(void)
       if(i>3)
       {
         printf("But only %d little ducks came back\n",i-3);
-        for(int j=1;j<i-2;j++)  printf("%d ",j);    
+        for(int j=1;j<i-2;j++)  
+        {
+            printf("%d",j);
+            if(j<i-3)printf(", ");
+        }
       }
       else if(i==3) printf("But none of the five little ducks came back\n");
       else if(i==2) printf("And all of five little ducks came back\n");
