@@ -2,12 +2,13 @@
 #include "conio.h"
 #include "string.h"
 const n=5;
-int main(){
-int i,j,nam[n],tmp;
-char key;
-for(i=0; i<n; i++)
+int main()
+{
+    int i,j,nam[n],tmp;
+    char key;
+    for(i=0; i<n; i++)
     {
-             printf("Enter Namber [%d]:",i+1);    scanf("%d",&nam[i]);
+      printf("Enter Namber [%d]:",i+1);    scanf("%d",&nam[i]);
     }
 
 
