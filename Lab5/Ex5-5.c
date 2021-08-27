@@ -38,4 +38,5 @@ int main()
         }
     }
     printf("sum of array is %d\n", sum);
+    return 0;
 }
