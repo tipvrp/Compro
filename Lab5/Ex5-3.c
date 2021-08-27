@@ -39,7 +39,5 @@ int main(void)
       printf("%2d ", at[i][j]);
     printf("|\n");
   }
-
-return 0;
-
+  return 0;
 }
