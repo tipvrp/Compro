@@ -34,6 +34,6 @@ int main(void){
   for (int i = 0; i < sizeof(TWO_D) / sizeof(TWO_D[0]); i++)
     for (int j = 0; j < sizeof(TWO_D[0]) / sizeof(int); j++)
       printf("element [%d][%d] = %d\n", i, j, TWO_D[i][j]);
-
+  
   return 0;
 }
